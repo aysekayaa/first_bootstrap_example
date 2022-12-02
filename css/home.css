@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    color: #48dbfb;
+
+}
+
+.body {
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.body h1 {
+    color: #48dbfb;
+}
+
+.navbar {
+    border-bottom: 6px solid #48dbfb;
+}
+.logo:hover{
+    color:white;
+}
+
+.row {
+    text-align: center;
+}
+.sıte .nav-item{
+    list-style-type: none;
+}
+.baslık {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.baslık:hover {
+    color: white;
+}
+
+/* 
+.div1 hr {
+    margin-left: 50px;
+    width: 30%;
+    border-style: solid;
+    color: #48dbfb;
+    border-width: 3px;
+
+} */
+
+.div2 {
+
+    color: #48dbfb;
+    text-align: center;
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.sosyal {
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #48dbfb;
+    text-align: center;
+    background-color: black;
+}
+
+.div1 {
+    font-size: 80px !important;
+    padding-bottom: 30px;
+
+}
+
+/* .a:link{
+
+    color:white;
+} */
+.bilgi {
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:992px) {
+    #cont {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: row-reverse;
+        content: space-between;
+    }
+
+}

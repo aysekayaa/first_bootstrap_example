@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sıte .nav-item{
+    list-style-type: none;
+}
+
+.navbar {
+    border-bottom: 6px solid #48dbfb;
+    font-size: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    color: #48dbfb;
+
+}
+.div1{
+    font-size: 80px !important;
+    padding-bottom: 30px;
+
+}
+
+.div2 {
+
+    color: #48dbfb;
+    text-align: center;
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.sosyal{
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #48dbfb;
+    text-align: center;
+    background-color: black;
+ 
+}
+.bilgi{
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.menu{
+    padding-top: 115px;
+    padding-bottom: 30px;
+    color:#48dbfb;
+    text-align: center;
+
+}
+@media screen and (max-width:992px) {
+    #cont {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: row-reverse;
+        content: space-between;
+    }
+
+
+}
